@@ -1,0 +1,55 @@
+.expressway_select_wrapper {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  z-index: 9998;
+}
+.kakaoMap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.loading_overlay {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+.map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.label {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -65px;
+  top: -70px;
+  width: 130px;
+  height: 1rem;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
+  white-space: pre;
+  word-wrap: break-word;
+  user-select: none;
+}
+
+@media all and (max-width: 768px) {
+  .map {
+    width: 100%;
+  }
+}
